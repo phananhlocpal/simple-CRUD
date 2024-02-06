@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Add Data</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="addRow_btn">
+         <property name="text">
+          <string>Add Row</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTableWidget" name="addData_table">
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Year_Birth</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Education</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Marital_Status</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Income</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Kidhome</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Teenhome</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Dt_Customer</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recency</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MntWines</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MntFruits</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MntMeatProducts</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MntFishProducts</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MntSweetProducts</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MntGoldProds</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>NumDealsPurchases</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>NumWebPurchases</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>NumCatalogPurchases</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>NumStorePurchases</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>NumWebVisitsMonth</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>AcceptedCmp3</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>AcceptedCmp4</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>AcceptedCmp5</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>AcceptedCmp1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>AcceptedCmp2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Response</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Complain</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Country</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="addData_btn">
+         <property name="text">
+          <string>Add Data</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
